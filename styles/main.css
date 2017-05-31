@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  font-size: 18px;
 }
 
 .outer {
@@ -24,6 +25,7 @@ body {
 h1{
   text-align: center;
   font-weight: bold;
+  margin-bottom: 5%;
 }
 
 section {
@@ -31,7 +33,22 @@ section {
   background-color: #ffffff;
   padding: 2rem 0;
   min-width: 59.4%;
-  min-height: 74.4vh;
+  min-height: 70vh;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+form div{
+  flex: 1 1 40%;
+}
+
+.heading{
+  margin-bottom: -5%;
+  font-weight: lighter;
 }
 
 .radio-options{
@@ -50,8 +67,38 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2%;
+  height: 44.6%;
 }
 
 .account-info div{
   flex: 1 1 40%;
+  padding: 1%;
+}
+
+.info{
+  height: 40px;
+}
+
+.upload{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.upload div{
+  padding: 1%;
+  flex: 1 1 40%;
+}
+
+.file{
+  font-size: 16px;
+}
+
+.signup{
+  width: 99%;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid black;
+  font-size: 18px;
 }
