@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
-html {
-  box-sizing: border-box;
-}
 *, *:before, *:after {
   box-sizing: inherit;
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-size: 18px;
 }
 
@@ -65,13 +67,14 @@ form div{
   display: flex;
   flex: 1 1 30%;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   padding: 2%;
   height: 44.6%;
 }
 
 .account-info div{
-  flex: 1 1 40%;
+  flex: 1 1 20%;
   padding: 1%;
 }
 
